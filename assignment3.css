@@ -1,0 +1,33 @@
+h1{
+    color:red;
+    background-color: darkgray;
+}
+h2{
+    color: goldenrod;
+    background-color: brown;
+}
+h3{
+    color:aqua;
+}
+#Important{
+    color:purple;
+}
+.Classes{
+    color:teal;
+}
+a{
+    color: red;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
+#info{
+    color:navy;
+    background-color: blanchedalmond;
+}
+#CTKName{
+    color:blueviolet;
+}
