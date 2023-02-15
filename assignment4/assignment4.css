@@ -1,0 +1,55 @@
+body{
+    font-family:sans-serif;
+    background-image: url(stockImage.jpg);
+}
+h1{
+    color:orange;
+    background-color: darkgray;
+    font-style: italic;
+    font-weight: normal;
+}
+h2{
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+    background-color: brown;
+}
+h3{
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+.imageborder{
+    border: 15px solid black;
+    padding:5px;
+    background-color: yellow;
+}
+#Important{
+    color:purple;
+}
+.Classes{
+    color:teal;
+}
+a{
+    color: red;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
+#info{
+    color:navy;
+    background-color: blanchedalmond;
+}
+#CTKName{
+    color:blueviolet;
+} 
+
+.AudioInter {
+    text-align: center;
+}
+.GameDesign {
+    text-align: justify;
+}
