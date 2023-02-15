@@ -1,0 +1,39 @@
+header {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+}
+a{
+    color:green;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+#Pompeii {
+    color:blue;
+}
+.TheDoctor {
+    color: orange;
+    font-weight: bold;
+}
+.HighlightYellow {
+    background-color: yellow;
+}
+.RedLetter {
+    color: red;
+}
+.FathersDay {
+    background-color: green;
+    color:yellow;
+}
+.Shamrock {
+    background-color: lightgreen;
+}
+.Doctor2 {
+    color: mediumblue;
+    font-weight: bold;
+}
