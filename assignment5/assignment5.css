@@ -1,0 +1,74 @@
+body{
+    background-image: url(a5bg.png);
+}
+
+h1{
+    font-family:Helvetica;
+    font-weight: normal;
+    background-color: white;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+
+nav li{
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+    display: inline-block;
+}
+
+nav li a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+}
+
+nav li a:hover{
+    background-color: darkblue;
+}
+
+h2{
+    font-family:Helvetica;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+}
+
+.tofuPara{
+ text-align: justify;
+}
+
+.tofuPara a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tofuPara a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+footer{
+    color: white;
+    background-color: darkblue;
+    border: 3px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    padding:30px;
+}
