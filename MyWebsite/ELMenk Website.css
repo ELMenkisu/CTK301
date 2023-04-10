@@ -1,0 +1,73 @@
+body {
+  background-color: #9bbc0f;
+  margin:0;
+}
+
+header {
+  margin: 0 0;
+  height: 75px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #AAAAAA;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  grid-column: span 1;
+  padding:10px;
+  height:60px;
+  text-align: center;
+}
+
+.dummycolumn a{
+  background-color: red;
+  padding:25px;
+}
+
+
+
+#wrapper {
+  margin: 0 auto;
+  width: 1080px;
+  height: 1020px;
+  border: 1px solid black;
+  padding:100px;
+  background-color: #FFF7E1;
+  text-align: center;
+
+ /* This is for the dummy columns, replace or delete */
+}
+
+#wrapper h1{
+  border-bottom: 5px solid black;
+}
+
+main{
+  margin:20px;
+}
+
+
+.Gallery{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: 600px;
+}
+
+.medImg{
+  grid-column: span 1;
+  padding:20px;
+  border:1px solid black;
+}
+
+footer{
+  background-color: red;
+  padding:20px;
+  margin: 0 auto 100px auto;
+  border:1px solid black;
+  width: 1240px;
+}
