@@ -3,31 +3,56 @@ body {
   margin:0;
 }
 
-header {
+nav {
   margin: 0 0;
-  height: 75px;
+  height: 115px;
   border: 1px solid black;
-  padding: 24px;
+  padding: 0px;
   background-color: #AAAAAA;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 24px;
   grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius:30px;
+  font-family: 'Lobster Two', Helvetica, sans-serif;
+}
+
+.ISUseal{
+  margin:0;
+  padding:0;
+  width:94px;
+  height:94px;
+  grid-column: span 1;
 }
 
 /* style for dummy columns, delete and replace with your own CSS */
 .dummycolumn {
   grid-column: span 1;
-  padding:10px;
+  margin:30px;
   height:60px;
   text-align: center;
 }
 
 .dummycolumn a{
   background-color: red;
+  color:white;
+  text-decoration: none;
   padding:25px;
+  margin:30px;
+  border-radius: 2000px;
+  transition: background-color 0.5s, color 0.5s;
 }
 
+.dummycolumn a:hover{
+  background-color: darkred;
+  color:lightgray;
+}
+
+.dummycolumn h1{
+  padding:0px;
+  margin:0;
+}
 
 
 #wrapper {
@@ -35,7 +60,7 @@ header {
   width: 1080px;
   height: 1020px;
   border: 1px solid black;
-  padding:100px;
+  padding:50px 100px;
   background-color: #FFF7E1;
   text-align: center;
 
@@ -48,8 +73,15 @@ header {
 
 main{
   margin:20px;
+  font-size: large;
 }
 
+.pImg{
+  width: 240px;
+  float:left;
+  margin-right:24px;
+  margin-bottom:1em;
+}
 
 .Gallery{
   display:grid;
@@ -61,13 +93,39 @@ main{
 .medImg{
   grid-column: span 1;
   padding:20px;
+  margin: 20px 0;
   border:1px solid black;
 }
 
+.largeImg{
+  grid-column: span 2;
+  padding:20px;
+  margin: 20px 0;
+  border:1px solid black;
+}
+
+.fullImg{
+  grid-column: span 3;
+  padding:20px;
+  margin: 20px 0;
+  border:1px solid black;
+}
+
+.socials{
+  font-size: x-large;
+}
+
+
+
 footer{
   background-color: red;
-  padding:20px;
   margin: 0 auto 100px auto;
   border:1px solid black;
-  width: 1240px;
+  width: 1280px;
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius:30px;
+}
+
+.ISUbanner{
+  padding:20px 980px 20px 20px;
 }
